@@ -1,0 +1,22 @@
+10
+STRT     0  353  191     
+END     1  378  599     
+SMPLASSIGN     2  348  264    x    3     
+SMPLASSIGN     3  341  335    z    0     
+SMPLASSIGN     4  354  410    y    1     
+LOOP    5  592  245    y    SML    x     
+SNGLOP     6  697  324    z    z ADD    y     
+SNGLOP     7  703  391    y   y  ADD    1     
+WRITE     8  706  456"y>=x"     
+WRITE     9  696  523    z     
+10
+7     5      3
+5     6      0
+6     7      0
+7     8      0
+0     2      0
+2     3      0
+3     4      0
+4     5      0
+8     9      0
+9     1      0
